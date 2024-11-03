@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of [Your Name], showcasing projects and work in [Your Field].">
+    <title>I.R. Hutchinson's Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        /* Simple inline CSS for quick styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, section {
+            padding: 20px;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .intro, .portfolio, .contact {
+            max-width: 800px;
+            margin: auto;
+        }
+        .portfolio-item {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .portfolio-item:hover {
+            background-color: #f1f1f1;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        @media (min-width: 600px) {
+            .portfolio-item {
+                width: 45%;
+                margin: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>I.R. Hutchinson</h1>
+        <p>Software Engineer</p>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <h2>About Me</h2>
+        <p>Hello! I'm I.R. Hutchinson, a fourth-year student at ASU. I am pursuing
+            concurrent degrees in Computer Science and English Literature. 
+            Welcome to my portfolio where you can explore my projects and learn more about my work.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <h2>My Projects</h2>
+        <div class="portfolio-item">
+            <h3>Personal Website</h3>
+            <p>A personal website built in HTML and CSS. First version created to explore advanced 
+                functions of Git.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>National Novel Writing Month 2024</h3>
+            <p>A series of poems totalling 50,000 words for National Novel Writing Month 2024.</p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>If you’d like to get in touch, feel free to reach out via email at 
+            <a href="mailto:your-email@example.com">irhutchi@asu.edu</a>.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 I.R. Hutchinson. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
